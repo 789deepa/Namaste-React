@@ -54,8 +54,7 @@ const Body = () => {
             <div className="res-container">
                 {/* resto cards */}
                 <RestoCard resName="MOONLIGHT" />
-                <RestoCard resName="KFC" />
-               
+                <RestoCard resName="KFC" />               
             </div>
         </div>
     );
