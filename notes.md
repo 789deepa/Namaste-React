@@ -9,4 +9,27 @@ There are two types of dependancies
 ^ (caret) - update minor + patch 18.x.x 
 ~ (tilde) - update patch only 18.2.x
 
+<<<<<<< HEAD
 'Transitive Dependancy' - Parcel dependancy can have its own dependancy, those can hav their own dependancies. (parcel == beast)
+=======
+'Transitive Dependancy' - Parcel dependancy can have its own dependancy, those can hav their own dependancies. (parcel == beast)
+
+whatever we can regenrate- dont have to put it on git (Ex. Node_modules)
+
+npm - calling command
+npx - executing packadge (npx parcel ___ )
+
+parcel: 
+-Dev build
+-Local Server
+-HMR = hot module replacement
+-File watching algorithm - written in cpp
+-Caching - faster builds
+-Image optimization 
+-Minification of files, for production 
+-Consistent Hashing
+-Code splitting
+-Differential bundling
+(big round of appolause for Parcel )
+-when we do 'npx parcel build index.html(automatically generates app.js)', have to remove main = app.js from packadge.json file (otherwise error)
+>>>>>>> bed229b (Added basic components)
