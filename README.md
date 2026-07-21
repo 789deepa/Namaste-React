@@ -1,5 +1,4 @@
-Namaste React
-
+Namaste Food
 
 <!-- 
 /* 
